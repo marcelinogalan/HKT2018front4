@@ -8,7 +8,7 @@ var path = require('path');
 //app.use (express.static(__dirname + '/build/composer-mock-local/vulcanize/'));
 
 // Next line to work with package directory: cells app:package
-app.use (express.static(__dirname + '/dist/'));
+app.use (express.static(__dirname + '/public/'));
 
 app.listen(port);
 
